@@ -8,7 +8,7 @@ class SaldoInsuficienteError(Exception):
 
 
 dictprod = {
-    'T-shirts': 12.50,
+    'Tshirts': 12.50,
     'Casacos': 15.00,
     'Calças': 10.00,
     'Calçado': 20.00
