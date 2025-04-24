@@ -46,7 +46,7 @@ def menu():
             case 1:
                 verprodutos()
             case 2:
-                carinho()
+                carrinho()
             case 3:
                 adsaldo()
             case 4:
@@ -85,7 +85,7 @@ def verprodutos():
     finally:
         input("\nPressione ENTER para continuar...")
 
-def carinho():
+def carrinho():
     limpar()
     if not carrinho:
         print("Carrinho ainda vazio.")
